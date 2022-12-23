@@ -1,0 +1,111 @@
+﻿
+*
+{
+    box-sizing:border-box;
+    color: #FFFFFF;
+}
+ body 
+ {
+     border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    margin: 0;
+    padding: 0;
+    font-size:15px;
+     font-family:Arial, Arial, Helvetica, Sans-Serif;
+     height:929px;
+     width:1535px;
+     background-position:center;
+     background-repeat:no-repeat;
+     background-attachment:fixed;
+    
+    
+}
+
+.registration-box
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:500px;
+    background-color:rgba(0,0,0,0.5);
+    height:753px;
+    position:absolute;
+    display:block;
+    margin-left:600px;
+    margin:50px 0px 50px auto;
+    padding:50px 30px;
+    top: -77px;
+    left: 536px;
+   
+}
+.registration-box img
+{
+    width:84px;
+    height:67px;
+    position:absolute;
+    left:63%;
+    top:-2147483648px;
+}
+.registration-box h2
+{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:25px;
+    margin-top:10px;
+    margin-left:50px;
+    font-family:Andalus;
+    color:White;
+}
+.registration-box  form label
+{
+    display:block;
+    margin-left:10%;
+    padding-bottom:15px;
+    font-size:50;
+    font-weight:bold;
+    font-family:Arial Black;
+    color:White;
+    width: 367px;
+}
+.inputbox
+{  
+    width:60%; 
+    margin-left:10%;
+    margin-bottom:20px;
+    font-size:100%;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid White;
+    color:white;
+    outline:none;
+   
+}
+.btnregister
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 1px;
+    background-color:Red;
+    font-family:Sans-Serif Arial;
+    margin-left:62px;
+    color:White;
+    
+}
+.btnregister:hover
+{
+    background-color:Blue;
+}
+.labeltext
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:15px;
+    font-family:100%;
+    font-weight:bold;
+    text-align:center;
+    color:White;
+    font-weight:bold;
+}
+

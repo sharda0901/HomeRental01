@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A8E469B-18A0-4ACE-8405-D5843AD43BD8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>project_on_property_rental_and_sale</RootNamespace>
+    <AssemblyName>project on property rental and sale</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\Desktop\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0017.jpg" />
+    <Content Include="123.jpg" />
+    <Content Include="AddToCart.aspx" />
+    <Content Include="admin.aspx" />
+    <Content Include="adminlog.aspx" />
+    <Content Include="Anewuseraspx.aspx" />
+    <Content Include="apprt1.jpg" />
+    <Content Include="apprt2.png" />
+    <Content Include="apprt3.jpg" />
+    <Content Include="apprt5.jpg" />
+    <Content Include="apprt7.jpg" />
+    <Content Include="b1 %282%29.jpg" />
+    <Content Include="b1.jpg" />
+    <Content Include="b2.jpg" />
+    <Content Include="b3.jpg" />
+    <Content Include="black ta.jpg" />
+    <Content Include="bmain.jpg" />
+    <Content Include="book.jpg" />
+    <Content Include="cmsg.aspx" />
+    <Content Include="cottage.jpg" />
+    <Content Include="download %282%29.jpg" />
+    <Content Include="f main.jpg" />
+    <Content Include="f2.jpg" />
+    <Content Include="f7.jpg" />
+    <Content Include="f8.jpg" />
+    <Content Include="farm.aspx" />
+    <Content Include="ff3.jpg" />
+    <Content Include="ff4.jpg" />
+    <Content Include="foo.jpg" />
+    <Content Include="hhh.jpg" />
+    <Content Include="himii4.jpg" />
+    <Content Include="homeee.jpg" />
+    <Content Include="homepage.aspx" />
+    <Content Include="homepahe1.aspx" />
+    <Content Include="homii2.jpg" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="images %284%29.jpg" />
+    <Content Include="mainapp.jpg" />
+    <Content Include="mainhouse-row.jpg" />
+    <Content Include="mf.jpg" />
+    <Content Include="nature.jpg" />
+    <Content Include="nn.jpg" />
+    <Content Include="nnn.jpg" />
+    <Content Include="nnn2.jpg" />
+    <Content Include="p2.jpg" />
+    <Content Include="paym.aspx" />
+    <Content Include="payrent.aspx" />
+    <Content Include="pdfgenerate.aspx" />
+    <Content Include="privaacy.jpg" />
+    <Content Include="privacy.jpg" />
+    <Content Include="privacypolicy.aspx" />
+    <Content Include="Rcontactus.aspx" />
+    <Content Include="real-estate-1.png" />
+    <Content Include="rent paid.aspx" />
+    <Content Include="rental registration.aspx" />
+    <Content Include="rental.aspx" />
+    <Content Include="rentregi.aspx" />
+    <Content Include="rentregistration.aspx" />
+    <Content Include="ro1.jpeg" />
+    <Content Include="ro2.jpg" />
+    <Content Include="ro3.jpeg" />
+    <Content Include="ro7.jpg" />
+    <Content Include="rp6.jpg" />
+    <Content Include="Rpropayment.aspx" />
+    <Content Include="Rpropertypay.aspx" />
+    <Content Include="Rpropertyregi.aspx" />
+    <Content Include="Rrentregister.aspx" />
+    <Content Include="sale.aspx" />
+    <Content Include="shopproduct.aspx" />
+    <Content Include="term.png" />
+    <Content Include="terms and con.aspx" />
+    <Content Include="ttt.jpg" />
+    <Content Include="aboutus.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="AddToCart1.aspx" />
+    <Content Include="bangl.jpg" />
+    <Content Include="contact.aspx" />
+    <Content Include="contStyle.css" />
+    <Content Include="download.jfif" />
+    <Content Include="homeStyle.css" />
+    <Content Include="images\about01.jpg" />
+    <Content Include="images\about02.jpg" />
+    <Content Include="images\about03.jpg" />
+    <Content Include="images\about04.jpg" />
+    <Content Include="images\about1.jpg" />
+    <Content Include="images\bangalo.jpg" />
+    <Content Include="images\cottage.jpg" />
+    <Content Include="images\farmh1 - Copy.jpg" />
+    <Content Include="images\farmh1.jpg" />
+    <Content Include="images\fer.jpg" />
+    <Content Include="images\himii4.jpg" />
+    <Content Include="images\home rental.jpg" />
+    <Content Include="images\homep1.jpg" />
+    <Content Include="images\homi1.jpg" />
+    <Content Include="images\homii2.jpg" />
+    <Content Include="images\homii3.jpg" />
+    <Content Include="images\login2.jpg" />
+    <Content Include="images\nature.jpg" />
+    <Content Include="images\td.png" />
+    <Content Include="logiinnn.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="loginStyle.css" />
+    <Content Include="more.jpg" />
+    <Content Include="productshop.aspx" />
+    <Content Include="registerStyle.css" />
+    <Content Include="registration.aspx" />
+    <Content Include="rowh.aspx" />
+    <Content Include="rowh.png" />
+    <Content Include="rrr.jpg" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="propertyregi.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart.aspx.designer.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddToCart1.aspx.cs">
+      <DependentUpon>AddToCart1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToCart1.aspx.designer.cs">
+      <DependentUpon>AddToCart1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminlog.aspx.cs">
+      <DependentUpon>adminlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlog.aspx.designer.cs">
+      <DependentUpon>adminlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anewuseraspx.aspx.cs">
+      <DependentUpon>Anewuseraspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anewuseraspx.aspx.designer.cs">
+      <DependentUpon>Anewuseraspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cmsg.aspx.cs">
+      <DependentUpon>cmsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cmsg.aspx.designer.cs">
+      <DependentUpon>cmsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="farm.aspx.cs">
+      <DependentUpon>farm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="farm.aspx.designer.cs">
+      <DependentUpon>farm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homepahe1.aspx.cs">
+      <DependentUpon>homepahe1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepahe1.aspx.designer.cs">
+      <DependentUpon>homepahe1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paym.aspx.cs">
+      <DependentUpon>paym.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paym.aspx.designer.cs">
+      <DependentUpon>paym.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="payrent.aspx.cs">
+      <DependentUpon>payrent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payrent.aspx.designer.cs">
+      <DependentUpon>payrent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pdfgenerate.aspx.cs">
+      <DependentUpon>pdfgenerate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pdfgenerate.aspx.designer.cs">
+      <DependentUpon>pdfgenerate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privacypolicy.aspx.cs">
+      <DependentUpon>privacypolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacypolicy.aspx.designer.cs">
+      <DependentUpon>privacypolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productshop.aspx.cs">
+      <DependentUpon>productshop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productshop.aspx.designer.cs">
+      <DependentUpon>productshop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rcontactus.aspx.cs">
+      <DependentUpon>Rcontactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rcontactus.aspx.designer.cs">
+      <DependentUpon>Rcontactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rent paid.aspx.cs">
+      <DependentUpon>rent paid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rent paid.aspx.designer.cs">
+      <DependentUpon>rent paid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rental registration.aspx.cs">
+      <DependentUpon>rental registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rental registration.aspx.designer.cs">
+      <DependentUpon>rental registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rental.aspx.cs">
+      <DependentUpon>rental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rental.aspx.designer.cs">
+      <DependentUpon>rental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rentregi.aspx.cs">
+      <DependentUpon>rentregi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rentregi.aspx.designer.cs">
+      <DependentUpon>rentregi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rentregistration.aspx.cs">
+      <DependentUpon>rentregistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rentregistration.aspx.designer.cs">
+      <DependentUpon>rentregistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rowh.aspx.cs">
+      <DependentUpon>rowh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rowh.aspx.designer.cs">
+      <DependentUpon>rowh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpropayment.aspx.cs">
+      <DependentUpon>Rpropayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpropayment.aspx.designer.cs">
+      <DependentUpon>Rpropayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpropertypay.aspx.cs">
+      <DependentUpon>Rpropertypay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpropertypay.aspx.designer.cs">
+      <DependentUpon>Rpropertypay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rpropertyregi.aspx.cs">
+      <DependentUpon>Rpropertyregi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rpropertyregi.aspx.designer.cs">
+      <DependentUpon>Rpropertyregi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rrentregister.aspx.cs">
+      <DependentUpon>Rrentregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rrentregister.aspx.designer.cs">
+      <DependentUpon>Rrentregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sale.aspx.cs">
+      <DependentUpon>sale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sale.aspx.designer.cs">
+      <DependentUpon>sale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shopproduct.aspx.cs">
+      <DependentUpon>shopproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shopproduct.aspx.designer.cs">
+      <DependentUpon>shopproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="propertyregi.aspx.cs">
+      <DependentUpon>propertyregi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="propertyregi.aspx.designer.cs">
+      <DependentUpon>propertyregi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="terms and con.aspx.cs">
+      <DependentUpon>terms and con.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="terms and con.aspx.designer.cs">
+      <DependentUpon>terms and con.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ap02.webp" />
+    <None Include="ap4.webp" />
+    <Content Include="ap.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49367</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

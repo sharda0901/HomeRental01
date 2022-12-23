@@ -1,0 +1,66 @@
+﻿
+
+
+
+*
+{
+    margin:0 0px 0 176px;
+    padding:0;
+   
+}
+   body 
+   {
+       background:#55ffef;
+       font-size:14px;
+       
+}
+.container
+{
+    width:80%;
+    margin:50px auto;
+}
+.contact-box
+{
+    background:#fff;
+    display:flex;
+    width: 865px;
+    height: 397px;
+}
+.contact-left
+{
+    flex-basis:60%;
+    padding:40px 60px;
+    height: 319px;
+    width: 747px;
+}
+.contact-right
+{
+    fkex-basis:40%;
+    padding:40px;
+    background:#1c00b5;
+    color:#fff;
+    width: 728px;
+    height: 185px;
+}
+
+.h1
+{
+    margin-bottom:10px;
+}
+.container p
+{
+    margin-bottom:40px;
+}
+.input-row
+{
+    display:flex;
+    justify-content:space around;
+    margin-bottom:20px;
+}
+.input-row .input-group
+{
+    {
+    flex-basis:45%;
+    width: 655px;
+    height: 36px;
+}

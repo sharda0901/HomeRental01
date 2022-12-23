@@ -1,0 +1,111 @@
+﻿body   
+{
+    
+     margin:0;
+     padding:0;background-image: url('unnamed.jpg');
+      background-repeat: no-repeat;
+       background-attachment: fixed; 
+       background-position: center;
+       background-attachment:fixed;
+       height:737px;
+       width:1180px;
+    
+     
+}
+.loginbox
+{
+    position:absolute;
+    top:8%;
+    left:40%;
+    width:378px;
+    height:450px;
+    padding: 80px 40px;
+    background-color:rgba(0,0,0,0.5);
+}
+.user
+{
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    top:calc(-100px/2);
+    left:calc(-50% -50px);
+    position:absolute;
+}
+h2
+{
+    padding:0;
+    margin:0;
+    text-align:center;
+    color:rgb(255,227,75);
+}
+.lblemail,.lblpass
+{
+    font-weight:bold;
+    color:#fff;
+}
+
+.btnsubmit
+{
+     width:100%;
+    margin-bottom:20px;
+}
+.textmail
+{
+   
+    margin-left:10%;
+    margin-bottom:20px;
+    font-size:100%;
+    background-color:transparent;
+    border-bottom:1px solid White;
+    color:white;
+    outline:none;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+::placeholder
+{
+    color:rgba(255,255,255,0.5);
+}
+.btnsubmit
+{
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    font-size:40px;
+    color:White;
+    background-color:Red;
+    cursor:pointer;
+    border-style:none;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.btnsubmit:hover
+{
+    background-color:Blue;
+}
+.btnforget
+{ 
+     border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    text-align:left;
+    font-size:100%;
+    background-color:transparent;
+    color:white;
+    outline:none;
+   
+}
+.btnforget:hover
+{
+    text-decoration:underline;
+    color:Blue;
+   
+}
+
